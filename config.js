@@ -4,7 +4,7 @@ module.exports = {
   url: 'https://yinguohang.github.io',
   pathPrefix: '/',
   title: 'Guohang Yin\'s Blog',
-  subtitle: 'Guohang Yin\'s Blog' ,
+  subtitle: 'Guohang Yin\'s Blog',
   copyright: '© All rights reserved.',
   disqusShortname: '',
   postsPerPage: 5,
