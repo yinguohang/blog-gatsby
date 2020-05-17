@@ -23,7 +23,9 @@ describe('CategoriesListTemplate', () => {
   });
 
   it('renders correctly', () => {
-    const tree = renderer.create(<CategoriesListTemplate />).toJSON();
-    expect(tree).toMatchSnapshot();
+    const tree = renderer.create(<CategoriesListTemplate/>)
+      .toJSON();
+    expect(tree)
+      .toMatchSnapshot();
   });
 });

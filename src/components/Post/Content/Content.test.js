@@ -10,7 +10,9 @@ describe('Content', () => {
       body: '<p>test</p>'
     };
 
-    const tree = renderer.create(<Content {...props} />).toJSON();
-    expect(tree).toMatchSnapshot();
+    const tree = renderer.create(<Content {...props} />)
+      .toJSON();
+    expect(tree)
+      .toMatchSnapshot();
   });
 });

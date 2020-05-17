@@ -18,7 +18,9 @@ describe('Menu', () => {
   };
 
   it('renders correctly', () => {
-    const tree = renderer.create(<Menu {...props} />).toJSON();
-    expect(tree).toMatchSnapshot();
+    const tree = renderer.create(<Menu {...props} />)
+      .toJSON();
+    expect(tree)
+      .toMatchSnapshot();
   });
 });

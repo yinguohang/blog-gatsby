@@ -10,7 +10,9 @@ describe('Page', () => {
   };
 
   it('renders correctly', () => {
-    const tree = renderer.create(<Page {...props} />).toJSON();
-    expect(tree).toMatchSnapshot();
+    const tree = renderer.create(<Page {...props} />)
+      .toJSON();
+    expect(tree)
+      .toMatchSnapshot();
   });
 });

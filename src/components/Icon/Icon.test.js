@@ -13,7 +13,9 @@ describe('Icon', () => {
   };
 
   it('renders correctly', () => {
-    const tree = renderer.create(<Icon {...props} />).toJSON();
-    expect(tree).toMatchSnapshot();
+    const tree = renderer.create(<Icon {...props} />)
+      .toJSON();
+    expect(tree)
+      .toMatchSnapshot();
   });
 });

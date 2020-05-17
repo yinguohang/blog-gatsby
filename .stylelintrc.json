@@ -13,9 +13,14 @@
     "no-descending-specificity": true,
     "no-duplicate-selectors": true,
     "font-family-no-missing-generic-family-keyword": null,
-    "property-no-unknown": [true, {
-      "ignoreProperties": ["/^lost-/"]
-    }]
+    "property-no-unknown": [
+      true,
+      {
+        "ignoreProperties": [
+          "/^lost-/"
+        ]
+      }
+    ]
   },
   "ignoreFiles": [
     "node_modules/*",

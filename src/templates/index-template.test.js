@@ -26,7 +26,9 @@ describe('IndexTemplate', () => {
   });
 
   it('renders correctly', () => {
-    const tree = renderer.create(<IndexTemplate {...props} />).toJSON();
-    expect(tree).toMatchSnapshot();
+    const tree = renderer.create(<IndexTemplate {...props} />)
+      .toJSON();
+    expect(tree)
+      .toMatchSnapshot();
   });
 });

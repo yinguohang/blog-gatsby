@@ -1,4 +1,3 @@
-
 // @flow strict
 import React from 'react';
 import renderer from 'react-test-renderer';
@@ -17,7 +16,9 @@ describe('Contacts', () => {
   };
 
   it('renders correctly', () => {
-    const tree = renderer.create(<Contacts {...props} />).toJSON();
-    expect(tree).toMatchSnapshot();
+    const tree = renderer.create(<Contacts {...props} />)
+      .toJSON();
+    expect(tree)
+      .toMatchSnapshot();
   });
 });

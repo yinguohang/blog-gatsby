@@ -26,7 +26,9 @@ describe('CategoryTemplate', () => {
   });
 
   it('renders correctly', () => {
-    const tree = renderer.create(<CategoryTemplate {...props} />).toJSON();
-    expect(tree).toMatchSnapshot();
+    const tree = renderer.create(<CategoryTemplate {...props} />)
+      .toJSON();
+    expect(tree)
+      .toMatchSnapshot();
   });
 });

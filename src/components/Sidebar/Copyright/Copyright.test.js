@@ -9,7 +9,9 @@ describe('Copyright', () => {
       copyright: 'copyright'
     };
 
-    const tree = renderer.create(<Copyright {...props} />).toJSON();
-    expect(tree).toMatchSnapshot();
+    const tree = renderer.create(<Copyright {...props} />)
+      .toJSON();
+    expect(tree)
+      .toMatchSnapshot();
   });
 });

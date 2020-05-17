@@ -104,9 +104,10 @@ module.exports = {
         plugins: [
           'gatsby-remark-relative-images',
           {
-            resolve: 'gatsby-remark-katex',
+            resolve: 'gatsby-remark-prismjs',
             options: {
-              strict: 'ignore'
+              strict: 'ignore',
+              showLineNumbers: false
             }
           },
           {

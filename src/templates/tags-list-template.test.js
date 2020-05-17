@@ -23,7 +23,9 @@ describe('TagsListTemplate', () => {
   });
 
   it('renders correctly', () => {
-    const tree = renderer.create(<TagsListTemplate />).toJSON();
-    expect(tree).toMatchSnapshot();
+    const tree = renderer.create(<TagsListTemplate/>)
+      .toJSON();
+    expect(tree)
+      .toMatchSnapshot();
   });
 });

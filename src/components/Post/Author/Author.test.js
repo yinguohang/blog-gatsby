@@ -17,7 +17,9 @@ describe('Author', () => {
   });
 
   it('renders correctly', () => {
-    const tree = renderer.create(<Author />).toJSON();
-    expect(tree).toMatchSnapshot();
+    const tree = renderer.create(<Author/>)
+      .toJSON();
+    expect(tree)
+      .toMatchSnapshot();
   });
 });

@@ -16,7 +16,9 @@ describe('Tags', () => {
       ]
     };
 
-    const tree = renderer.create(<Tags {...props} />).toJSON();
-    expect(tree).toMatchSnapshot();
+    const tree = renderer.create(<Tags {...props} />)
+      .toJSON();
+    expect(tree)
+      .toMatchSnapshot();
   });
 });

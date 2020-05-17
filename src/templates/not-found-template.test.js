@@ -17,7 +17,9 @@ describe('NotFoundTemplate', () => {
   });
 
   it('renders correctly', () => {
-    const tree = renderer.create(<NotFoundTemplate />).toJSON();
-    expect(tree).toMatchSnapshot();
+    const tree = renderer.create(<NotFoundTemplate/>)
+      .toJSON();
+    expect(tree)
+      .toMatchSnapshot();
   });
 });

@@ -40,7 +40,9 @@ describe('Post', () => {
   };
 
   it('renders correctly', () => {
-    const tree = renderer.create(<Post {...props} />).toJSON();
-    expect(tree).toMatchSnapshot();
+    const tree = renderer.create(<Post {...props} />)
+      .toJSON();
+    expect(tree)
+      .toMatchSnapshot();
   });
 });

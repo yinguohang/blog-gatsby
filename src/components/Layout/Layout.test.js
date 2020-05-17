@@ -24,7 +24,9 @@ describe('Layout', () => {
   });
 
   it('renders correctly', () => {
-    const tree = renderer.create(<Layout {...props} />).toJSON();
-    expect(tree).toMatchSnapshot();
+    const tree = renderer.create(<Layout {...props} />)
+      .toJSON();
+    expect(tree)
+      .toMatchSnapshot();
   });
 });
