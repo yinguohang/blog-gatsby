@@ -6,9 +6,9 @@ draft: false
 slug: "leetcode-20"
 category: "leetcode"
 description: "Solution for Leetcode 20" 
-tags:
+tags: 
   - "C++"
---
+---
 [Question URL](https://leetcode.com/problems/valid-parentheses/description/)  
 
 ### 题目大意
