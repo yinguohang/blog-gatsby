@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-  url: 'https://yinguohang.github.io/blog-gatsby',
+  url: 'https://yinguohang.github.io',
   pathPrefix: '/blog-gatsby',
   title: 'Guohang Yin\'s Blog',
   subtitle: 'Guohang Yin\'s Blog',
