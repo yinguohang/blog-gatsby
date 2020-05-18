@@ -32,3 +32,4 @@ jobs:
         deploy-branch: gh-pages
         # Additional arguments that get passed to `gatsby build`.
         # gatsby-args: # optional, default is
+        gatsby-args: --prefix-paths
